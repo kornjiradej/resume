@@ -385,8 +385,7 @@ class Resume extends Component {
     })
 
     const project = resume.project.map((project) => {
-      return <div key={project.name}><h3>{project.name}</h3>
-        {/* <p><em className="date">{'Icons Icons'}</em></p> */} 
+      return <div key={project.name}><h3>{project.name}</h3> 
         <p><span>Description: </span> {project.description}</p>
         <p><span>Website: </span><a href={project.website} target={'_blank'}>{project.website}</a></p> 
         <p>
@@ -407,10 +406,8 @@ class Resume extends Component {
           <p><a href={education.website} target={'_blank'}>{education.website}</a></p>
       </div>
     })
-    const skills = resume.skills.map(function(skills){
-      const className = 'bar-expand '+skills.name.toLowerCase();
-      // return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
-      return <p><h2>{skills.name}</h2><Progress percent={skills.percent} size="small" status="active" strokeColor='#15CF62'/></p>
+    const skills = resume.skills.map(function(skills,i){  
+      return <div key={i}><h2>{skills.name}</h2><Progress percent={skills.percent} size="small" status="active" strokeColor='#15CF62'/></div>
     })
     return (
       <section id="resume">

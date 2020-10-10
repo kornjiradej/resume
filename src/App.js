@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import ReactGA from 'react-ga';
-import $ from 'jquery';
+import ReactGA from 'react-ga'; 
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
-import Resume from './Components/Resume';
-import Contact from './Components/Contact';
-import Personal from './Components/Personal';
-import Portfolio from './Components/Portfolio';
+import Resume from './Components/Resume'; 
+import Personal from './Components/Personal'; 
 import "antd/dist/antd.css"
 class App extends Component {
 
@@ -23,35 +20,14 @@ class App extends Component {
     ReactGA.pageview(window.location.pathname);
 
   }
-
-  // getResumeData(){
-  //   $.ajax({
-  //     url:'/resumeData.json',
-  //     dataType:'json',
-  //     cache: false,
-  //     success: function(data){
-  //       this.setState({resumeData: data});
-  //     }.bind(this),
-  //     error: function(xhr, status, err){
-  //       console.log(err);
-  //       alert(err);
-  //     }
-  //   });
-  // }
  
-  // componentDidMount(){
-  //   this.getResumeData();
-  // }
-
   render() { 
     return (
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        {/* <Portfolio data={this.state.resumeData.portfolio}/> */}
-        <Personal data={this.state.resumeData.Personal}/>
-        {/* <Contact data={this.state.resumeData.main}/> */}
+        <Resume data={this.state.resumeData.resume}/> 
+        <Personal data={this.state.resumeData.Personal}/> 
         <Footer data={this.state.resumeData.main}/>
       </div>
     );

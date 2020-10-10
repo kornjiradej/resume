@@ -50,7 +50,7 @@ class Personal extends Component {
       ]
     }
     var Personal = data.Personal.map((Personal,i) => { 
-      return <p><Badge style={{ color: 'white', fontSize: '20px' }} color={colors[i]} text={Personal} /></p>
+      return <p key={i}><Badge style={{ color: 'white', fontSize: '20px' }} color={colors[i]} text={Personal} /></p>
    })
 
     return (
