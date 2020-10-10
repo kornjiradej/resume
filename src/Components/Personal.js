@@ -32,11 +32,26 @@ class Personal extends Component {
         preserveAspectRatio: 'xMidYMid slice'
       }
     }
-    if(this.props.data){
-      var Personal = this.props.data.Personal.map((Personal,i) => { 
-         return <p><Badge style={{ color: 'white', fontSize: '20px' }} color={colors[i]} text={Personal} /></p>
-      })
+    const data = {
+      "Personal":[
+        "Responsibility",
+        "Meets deadlines",
+        "Punctual",
+        "Good Relationship",
+        "Meeting Targets",
+        "Team Player",
+        "Pleasant Personality",
+        "Highly adptive and flexible"
+      ],
+      "Hobbies" : [
+        "Basketball",
+        "Computer Game",
+        "Fitness"
+      ]
     }
+    var Personal = data.Personal.map((Personal,i) => { 
+      return <p><Badge style={{ color: 'white', fontSize: '20px' }} color={colors[i]} text={Personal} /></p>
+   })
 
     return (
       <section id="Personal"> 

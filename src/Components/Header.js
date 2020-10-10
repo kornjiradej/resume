@@ -18,32 +18,41 @@ class Header extends Component {
         preserveAspectRatio: 'xMidYMid slice'
       }
     } 
-    if(this.props.data){
-      // var name = this.props.data.name;
-      var nickname = this.props.data.nickname
-      var occupation= this.props.data.occupation;
-      var description= this.props.data.description;
-      var city= this.props.data.address.city;
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url} target="_blank"><i className={network.className}></i></a></li>
-      })
-    }
-      console.log('HelloBoy ',HelloBoy)
+    const social = [
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/KornJiradej/",
+        "className":"fa fa-facebook"
+      }, 
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/jiradej-p/",
+        "className":"fa fa-linkedin"
+      }, 
+      {
+        "name":"github",
+        "url":"https://github.com/kornjiradej",
+        "className":"fa fa-github"
+      } 
+    ]
+    const nickname = "Korn"
+    const occupation= "Front-end Developer"
+    const description= "I am looking for a job that company accept new generation. Sustainable and move together."
+    const city= "Bangkok"
+    const networks= social.map(function(network){
+      return <li key={network.name}><a href={network.url} target="_blank"><i className={network.className}></i></a></li>
+    })
     return (
-      <header id="home">
-
-      <nav id="nav-wrap">
-
+      <header id="home"> 
+      <nav id="nav-wrap"> 
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            {/* <li><a className="smoothscroll" href="#portfolio">Works</a></li> */}
-            <li><a className="smoothscroll" href="#Personal">Personal</a></li>
-            {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
+	         <li><a className="smoothscroll" href="#resume">Resume</a></li> 
+            <li><a className="smoothscroll" href="#Personal">Personal</a></li>  
          </ul>
 
       </nav>
@@ -64,12 +73,10 @@ class Header extends Component {
                {networks}
             </ul>
          </div>
-      </div>
-
+      </div> 
       <p className="scrolldown">
          <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
-      </p>
-
+      </p> 
    </header>
     );
   }
