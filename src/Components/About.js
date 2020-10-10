@@ -72,6 +72,10 @@ class About extends Component {
                <Col span={12} style={{ textAlign: 'right'}}><span style={{ marginRight: '10px' }}>Address</span></Col>
                <Col span={12} ><span style={{ marginLeft: '10px' }}>Huai Khwang Bangkok</span></Col>
             </Row> 
+            <Row style={{ color: 'white' }}>
+               <Col span={12} style={{ textAlign: 'right'}}><span style={{ marginRight: '10px' }}>Email</span></Col>
+               <Col span={12} ><span style={{ marginLeft: '10px' }}>kornjiradej@gmail.com</span></Col>
+            </Row> 
          </Col>
       </Row> 
    </section>
