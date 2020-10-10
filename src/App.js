@@ -24,20 +24,20 @@ class App extends Component {
 
   }
 
-  getResumeData(){
-    $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
+  // getResumeData(){
+  //   $.ajax({
+  //     url:'/resumeData.json',
+  //     dataType:'json',
+  //     cache: false,
+  //     success: function(data){
+  //       this.setState({resumeData: data});
+  //     }.bind(this),
+  //     error: function(xhr, status, err){
+  //       console.log(err);
+  //       alert(err);
+  //     }
+  //   });
+  // }
  
   componentDidMount(){
     this.getResumeData();
