@@ -39,9 +39,9 @@ class App extends Component {
   //   });
   // }
  
-  componentDidMount(){
-    this.getResumeData();
-  }
+  // componentDidMount(){
+  //   this.getResumeData();
+  // }
 
   render() { 
     return (
