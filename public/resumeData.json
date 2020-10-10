@@ -1,0 +1,448 @@
+{
+  "main": {
+    "name":"Jiradej Panjapornsiwanukul",
+    "nickname": "Korn",
+    "occupation":"Front-end Developer",
+    "description":"I am looking for a job that company accept new generation. Sustainable and move together",
+    "image":"profilepic.svg",
+    "bio":"I am 24 years old. Hight 175 cm, Weight 68 kg. My faverite sport is basket ball, table tenis and swim",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "kornjiradej@gmail.com",
+    "phone": "061-415-4944",
+    "address":{
+      "street":"(Your Street)",
+      "city":"Bangkok",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://drive.google.com/file/d/1Rei1-4HJznJ-xxNZJri5NXkmOzwVbBe5/view?usp=sharing",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/KornJiradej/",
+        "className":"fa fa-facebook"
+      }, 
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/jiradej-p/",
+        "className":"fa fa-linkedin"
+      }, 
+      {
+        "name":"github",
+        "url":"https://github.com/kornjiradej",
+        "className":"fa fa-github"
+      } 
+    ]
+  },
+  "resume":{ 
+    "education":[
+      {
+        "school":"KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK",
+        "degree":"Bachelor",
+        "graduated":"August 2015 - February 2019",
+        "description":"Department of Computer Science",
+        "website": "https://www.kmutnb.ac.th/"
+      },
+      {
+        "school":"High School: Sakolraj",
+        "degree":"Grade 12",
+        "graduated":"March 2011 - March 2014",
+        "description":"Science-Mathematics",
+        "website": "http://www.sakolraj.ac.th/"
+      }
+    ],
+    "project": [
+      {
+        "name": "E-Document search system on blockchain(Final Project)",
+        "website": "-", 
+        "description": "This project is my final project. E-Document search system on blockchain is document store on blockchain. Safe ,Transparent and verifiable",
+        "tool": [
+          {
+            "name" : "React JS",
+            "id": "reactjs",
+            "icon": "",
+            "website": "https://reactjs.org/" 
+          },
+          {
+            "name" : "Ant-Design",
+            "id": "antd",
+            "icon": "",
+            "website": "https://ant.design/" 
+          }, 
+          {
+            "name" : "Ant-Design",
+            "id": "antd",
+            "icon": "",
+            "website": "https://ant.design/" 
+          },
+          {
+            "name" : "CSS",
+            "id": "css",
+            "icon": "",
+            "website": "https://www.w3schools.com/css/" 
+          },
+          {
+            "name" : "HTML",
+            "id": "html",
+            "icon": "",
+            "website": "https://www.w3schools.com/html/" 
+          },
+          {
+            "name" : "HTML",
+            "id": "html",
+            "icon": "",
+            "website": "https://www.w3schools.com/html/" 
+          },
+          {
+            "name" : "JavaScript",
+            "id": "javascript",
+            "icon": "",
+            "website": "https://www.javascript.com/" 
+          }, 
+          {
+            "name" : "JavaScript",
+            "id": "javascript",
+            "icon": "",
+            "website": "https://www.javascript.com/" 
+          },
+          {
+            "name" : "Github",
+            "id": "github",
+            "icon": "",
+            "website": "https://github.com/" 
+          } 
+        ]
+      },
+      {
+        "name": "Enter Corporation",
+        "website": "https://entercorp.net/",
+        "description": "This is my internship project. I'am software developer and internship for 2 month.",
+        "tool": [
+          {
+            "name" : "Vue.js",
+            "id": "vue",
+            "icon": "",
+            "website": "https://vuejs.org/" 
+          },
+          {
+            "name" : "Bootstrap 4",
+            "id": "bootstrap",
+            "icon": "",
+            "website": "https://getbootstrap.com/docs/4.4/getting-started/introduction/" 
+          },  
+          {
+            "name" : "CSS",
+            "id": "css",
+            "icon": "",
+            "website": "https://www.w3schools.com/css/" 
+          },
+          {
+            "name" : "HTML",
+            "id": "html",
+            "icon": "",
+            "website": "https://www.w3schools.com/html/" 
+          },
+          {
+            "name" : "GitKraKen",
+            "id": "gitkraken",
+            "icon": "",
+            "website": "https://www.gitkraken.com/" 
+          },
+          {
+            "name" : "Laravel",
+            "id": "laravel",
+            "icon": "",
+            "website": "https://laravel.com/" 
+          }  
+        ]
+      },
+      {
+        "name": "Online Testing",
+        "description": "This software is website that provide exam and testing online.",
+        "website": "https://onlinetesting.ipst.ac.th/",
+        "tool": [
+          {
+            "name" : "React JS",
+            "id": "reactjs",
+            "icon": "",
+            "website": "https://reactjs.org/" 
+          },
+          {
+            "name" : "Ant-Design 3",
+            "id": "antd",
+            "icon": "",
+            "website": "https://ant.design/" 
+          },  
+          {
+            "name" : "CSS",
+            "id": "css",
+            "icon": "",
+            "website": "https://www.w3schools.com/css/" 
+          },
+          {
+            "name" : "SCSS",
+            "id": "scss",
+            "icon": "",
+            "website": "https://sass-lang.com/documentation/syntax" 
+          },
+          {
+            "name" : "HTML5",
+            "id": "html5",
+            "icon": "",
+            "website": "https://www.w3schools.com/html/" 
+          },
+          {
+            "name" : "GitKraKen",
+            "id": "gitkraken",
+            "icon": "",
+            "website": "https://www.gitkraken.com/" 
+          },
+          {
+            "name" : "Jira",
+            "id": "jira",
+            "icon": "",
+            "website": "https://jira.atlassian.com/" 
+          }  
+        ]
+      },
+      {
+        "name": "Exam Bank",
+        "description": "The Exam Bank is website can create and store all exam and note then sent to kiddy(website,app) and official(app) project.",
+        "website": "https://exambank.sobtid.me/login",
+        "tool": [
+          {
+            "name" : "React JS",
+            "id": "reactjs",
+            "icon": "",
+            "website": "https://reactjs.org/" 
+          },
+          {
+            "name" : "React Hook",
+            "id": "reacthook",
+            "icon": "",
+            "website": "https://reactjs.org/docs/hooks-intro.html" 
+          },
+          {
+            "name" : "Ant-Design 4",
+            "id": "antd",
+            "icon": "",
+            "website": "https://ant.design/" 
+          },   
+          {
+            "name" : "CSS",
+            "id": "css",
+            "icon": "",
+            "website": "https://www.w3schools.com/css/" 
+          },
+          {
+            "name" : "SCSS",
+            "id": "scss",
+            "icon": "",
+            "website": "https://sass-lang.com/documentation/syntax" 
+          },
+          {
+            "name" : "HTML",
+            "id": "html",
+            "icon": "",
+            "website": "https://www.w3schools.com/html/" 
+          },
+          {
+            "name" : "GitKraKen",
+            "id": "gitkraken",
+            "icon": "",
+            "website": "https://www.gitkraken.com/" 
+          },
+          {
+            "name" : "Asana",
+            "id": "asana",
+            "icon": "",
+            "website": "https://asana.com/" 
+          },
+          {
+            "name" : "JavaScript ES6",
+            "id": "jses6",
+            "icon": "",
+            "website": "https://www.w3schools.com/js/js_es6.asp" 
+          }  
+        ]
+      },
+      {
+        "name": "Junior sobtid",
+        "description": "Junior sobtid is online testing for kids grade 1 - 6.",
+        "website": "https://junior.sobtid.me/home",
+        "tool": [
+          {
+            "name" : "React JS",
+            "id": "reactjs",
+            "icon": "",
+            "website": "https://reactjs.org/" 
+          },
+          {
+            "name" : "React Hook",
+            "id": "reacthook",
+            "icon": "",
+            "website": "https://reactjs.org/docs/hooks-intro.html" 
+          },
+          {
+            "name" : "Ant-Design 4",
+            "id": "antd",
+            "icon": "",
+            "website": "https://ant.design/" 
+          },   
+          {
+            "name" : "CSS",
+            "id": "css",
+            "icon": "",
+            "website": "https://www.w3schools.com/css/" 
+          },
+          {
+            "name" : "SCSS",
+            "id": "scss",
+            "icon": "",
+            "website": "https://sass-lang.com/documentation/syntax" 
+          },
+          {
+            "name" : "HTML",
+            "id": "html",
+            "icon": "",
+            "website": "https://www.w3schools.com/html/" 
+          },
+          {
+            "name" : "GitKraKen",
+            "id": "gitkraken",
+            "icon": "",
+            "website": "https://www.gitkraken.com/" 
+          },
+          {
+            "name" : "Asana",
+            "id": "asana",
+            "icon": "",
+            "website": "https://asana.com/" 
+          },
+          {
+            "name" : "JavaScript ES6",
+            "id": "jses6",
+            "icon": "",
+            "website": "https://www.w3schools.com/js/js_es6.asp" 
+          }  
+        ]
+      }
+    ],
+    "experience":[
+      {
+        "company":"Enter Coperation",
+        "title":"Front-end Developer",
+        "years":"01-05-2018 - 29-06-2018",
+        "description":"Develop website of Enter co.(Internship)"
+      },
+      {
+        "company":"Sobtid Edutainment Coporation.",
+        "title":"Front-end Developer",
+        "years":"01-09-2019 - present",
+        "description":"Project Online Testing, Exam Bank, Junior Sobtid."
+      }
+    ],
+    "skills":[
+      {
+        "name":"React Js: React Hook, Redux", 
+        "percent" : "90"
+      },
+      {
+        "name":"Vue.Js", 
+        "percent" : "30"
+      },
+      {
+        "name":"Laravel", 
+        "percent" : "10"
+      },
+      {
+        "name":"Bootstrap 4", 
+        "percent" : "60"
+      },
+      {
+        "name":"Ant-Design", 
+        "percent" : "90"
+      }, 
+      {
+        "name":"JavaScript", 
+        "percent" : "80"
+      },
+      {
+        "name":"HTML5", 
+        "percent" : "80"
+      },
+      {
+        "name":"CSS", 
+        "percent" : "80"
+      },
+      {
+        "name":"SCSS", 
+        "percent" : "70"
+      },
+      {
+        "name":"Git: GitHub Desktop, GitKraken", 
+        "percent" : "80"
+      }, 
+      {
+        "name":"Asana", 
+        "percent" : "90"
+      },
+      {
+        "name":"Jira", 
+        "percent" : "40"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  },
+  "Personal":{
+    "Personal":[
+      "Responsibility",
+      "Meets deadlines",
+      "Punctual",
+      "Good Relationship",
+      "Meeting Targets",
+      "Team Player",
+      "Pleasant Personality",
+      "Highly adptive and flexible"
+    ],
+    "Hobbies" : [
+      "Basketball",
+      "Computer Game",
+      "Fitness"
+    ]
+  }
+}
