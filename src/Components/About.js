@@ -17,7 +17,7 @@ class About extends Component {
       }
     }
     const profilepic= "images/profilepic.svg" 
-    const resumeDownload = "https://drive.google.com/file/d/1Rei1-4HJznJ-xxNZJri5NXkmOzwVbBe5/view?usp=sharing";
+    const resumeDownload = "https://drive.google.com/file/d/14V3eIwe2oxC75oGt-T8dRyJ8xuTLgOd-/view?usp=sharing";
 
     return (
       <section id="about">
@@ -29,7 +29,9 @@ class About extends Component {
                isStopped={this.state.isStopped}
                isPaused={this.state.isPaused}/>  
             <div style={{ textAlign: 'center', marginTop: '30px' }}>
-               <a href={resumeDownload} style={{ backgound: '#a52525' }} className="button" target="_blank"><i className="fa fa-download"></i>Download Resume</a>
+               <a href={resumeDownload} style={{ backgound: '#a52525',color: 'white' }} className="button" 
+               target="_blank"
+               ><i className="fa fa-download"></i>Download Resume</a>
             </div>
          </Col>
          <Col md={12} lg={12} xs={24}>
