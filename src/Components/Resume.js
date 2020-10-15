@@ -368,15 +368,15 @@ class Resume extends Component {
         },
         {
           "name":"Figma",
-          "percent": "80%"
+          "percent": "80"
         },
         {
           "name":"Adobe XD",
-          "percent": "80%"
+          "percent": "80"
         },
         {
           "name":"Zeplin",
-          "percent": "80%"
+          "percent": "80"
         } 
       ]
     }
