@@ -27,7 +27,7 @@ class Resume extends Component {
           "website": "https://www.kmutnb.ac.th/"
         },
         {
-          "school":"High School: Sakolraj",
+          "school":"High School: Sakolrajwitthayanukool School",
           "degree":"Grade 12",
           "graduated":"March 2011 - March 2014",
           "description":"Science-Mathematics",
@@ -329,15 +329,7 @@ class Resume extends Component {
         {
           "name":"React Js: React Hook, Redux", 
           "percent" : "90"
-        },
-        {
-          "name":"Vue.Js", 
-          "percent" : "30"
-        },
-        {
-          "name":"Laravel", 
-          "percent" : "10"
-        },
+        }, 
         {
           "name":"Bootstrap 4", 
           "percent" : "60"
@@ -372,8 +364,20 @@ class Resume extends Component {
         },
         {
           "name":"Jira", 
-          "percent" : "40"
-        }
+          "percent" : "50"
+        },
+        {
+          "name":"Figma",
+          "percent": "80%"
+        },
+        {
+          "name":"Adobe XD",
+          "percent": "80%"
+        },
+        {
+          "name":"Zeplin",
+          "percent": "80%"
+        } 
       ]
     }
     const education = resume.education.map(function(education){
